@@ -1,0 +1,100 @@
+{
+  "candidates": [
+    {
+      "factor": "O03_low_location_5d",
+      "selected": true,
+      "definition": "5日收盘价在日内高低区间中的平均位置取负，持续低位收盘越强，反弹信号越高。",
+      "selection_score": 1.09375
+    },
+    {
+      "factor": "O13_low_close_high_vol",
+      "selected": true,
+      "definition": "5日低位收盘强度乘以相对20日波动率，筛选低位且波动放大的恐慌状态。",
+      "selection_score": 1.03125
+    },
+    {
+      "factor": "O02_low_location_3d",
+      "selected": true,
+      "definition": "3日收盘价低位位置取负，直接对应图片中的连续3日低位收盘思路。",
+      "selection_score": 0.984375
+    },
+    {
+      "factor": "O14_panic_range_low_close",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.890625
+    },
+    {
+      "factor": "O05_five_low_closes",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.875
+    },
+    {
+      "factor": "O04_three_low_closes",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.875
+    },
+    {
+      "factor": "O07_return_5d",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.796875
+    },
+    {
+      "factor": "O12_low_close_turn_dollar",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.65625
+    },
+    {
+      "factor": "O11_low_close_turn_shock",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.609375
+    },
+    {
+      "factor": "O01_seed_upper_room_3d",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.546875
+    },
+    {
+      "factor": "O15_three_day_bear_pressure",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.46875
+    },
+    {
+      "factor": "O10_distance_low_20d",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.46875
+    },
+    {
+      "factor": "O08_downside_sum_5d",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.4375
+    },
+    {
+      "factor": "O06_return_3d",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.375
+    },
+    {
+      "factor": "O09_drawdown_20d",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.328125
+    },
+    {
+      "factor": "O16_low_close_rebound_gap",
+      "selected": false,
+      "definition": "候选超跌反弹信号，具体公式见回测脚本。",
+      "selection_score": 0.1875
+    }
+  ]
+}

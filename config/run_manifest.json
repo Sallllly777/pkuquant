@@ -1,0 +1,16 @@
+{
+  "start": "2017-01-01",
+  "end": "2020-12-31",
+  "symbols": 50,
+  "rows": 47711,
+  "source_run": "projects\\factor_backtest\\runs\\oversold_rebound",
+  "selected_factors": [
+    "O03_low_location_5d",
+    "O13_low_close_high_vol",
+    "O02_low_location_3d"
+  ],
+  "cost_bps": 5.0,
+  "top_bottom": 0.2,
+  "selection_rule": "top 3 by composite score: Sharpe, IC/ICIR, IC hit rate, and lower turnover",
+  "universe_note": "HS300 constituents as of 2020-12-31; survivorship bias present"
+}

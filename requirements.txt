@@ -1,0 +1,4 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+baostock==00.9.40
