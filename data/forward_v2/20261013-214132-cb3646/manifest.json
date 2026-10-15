@@ -1,0 +1,480 @@
+{
+  "schema": 1,
+  "status": "complete",
+  "provider": "BaoStock",
+  "source_api": "query_history_k_data_plus",
+  "started_at_utc": "2026-10-13T13:41:32.942815+00:00",
+  "completed_at_utc": "2026-10-13T13:42:45.696386+00:00",
+  "end": "2026-10-13",
+  "start": "2026-04-16",
+  "observe_only": false,
+  "freeze_sha256": "31d96bb07e3c5f58736113c6d9261fb2802276845753159d515854313582e83b",
+  "collector_sha256": "2029b9db3dde4662b106626775a636e433538ac293c1acc20983b7152a74a325",
+  "input_sha256": "a001dcd2473260e6ba35d3449ea4cb2089bfee1b09bd5841c99940874d5fc276",
+  "symbols": [
+    "sh.600000",
+    "sh.600004",
+    "sh.600009",
+    "sh.600010",
+    "sh.600011",
+    "sh.600015",
+    "sh.600016",
+    "sh.600018",
+    "sh.600019",
+    "sh.600025",
+    "sh.600027",
+    "sh.600028",
+    "sh.600029",
+    "sh.600030",
+    "sh.600031",
+    "sh.600036",
+    "sh.600048",
+    "sh.600050",
+    "sh.600061",
+    "sh.600066",
+    "sh.600068",
+    "sh.600085",
+    "sh.600104",
+    "sh.600109",
+    "sh.600111",
+    "sh.600115",
+    "sh.600118",
+    "sh.600150",
+    "sh.600161",
+    "sh.600176",
+    "sh.600177",
+    "sh.600183",
+    "sh.600196",
+    "sh.600208",
+    "sh.600233",
+    "sh.600271",
+    "sh.600276",
+    "sh.600297",
+    "sh.600299",
+    "sh.600309",
+    "sh.600332",
+    "sh.600340",
+    "sh.600346",
+    "sh.600352",
+    "sh.600362",
+    "sh.600369",
+    "sh.600383",
+    "sh.600390",
+    "sh.600406",
+    "sh.600436"
+  ],
+  "rows": 5950,
+  "calendar_dates": 119,
+  "fields": "date,code,open,high,low,close,volume,amount,turn,pctChg,tradestatus,isST,adjustflag",
+  "adjustflag": "2",
+  "retrieval_by_symbol": [
+    {
+      "symbol": "sh.600000",
+      "retrieved_at_utc": "2026-10-13T13:41:41.817192+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "f1d91441ab7eddad6890e6ee2d96733f5a784484b2232c1123518ebbcfc61c8a"
+    },
+    {
+      "symbol": "sh.600004",
+      "retrieved_at_utc": "2026-10-13T13:41:46.499724+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "b9980acdbdd2ab559c9ef990f4d6122915108024a6628806ecbb59e23c556434"
+    },
+    {
+      "symbol": "sh.600009",
+      "retrieved_at_utc": "2026-10-13T13:41:47.177193+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "d5d7a32f1f066cbb2e1cd0c0191a3eaeb2f4d5ddaf878471945478b1150475c0"
+    },
+    {
+      "symbol": "sh.600010",
+      "retrieved_at_utc": "2026-10-13T13:41:47.700707+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "05df631ab70f383a65e7e9a9ced8f34b4d2865bff568f3f7ef319ab4618507ce"
+    },
+    {
+      "symbol": "sh.600011",
+      "retrieved_at_utc": "2026-10-13T13:41:47.984637+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "1759efc7d7fd4eda364e5de156eb72a23c74426846571eff5ca14e1d87edb4e8"
+    },
+    {
+      "symbol": "sh.600015",
+      "retrieved_at_utc": "2026-10-13T13:41:48.392820+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "18be00258d9a5418fae0c9c2f424c69a68e4c304959f9ea2425f290db7cf0eb4"
+    },
+    {
+      "symbol": "sh.600016",
+      "retrieved_at_utc": "2026-10-13T13:41:48.589193+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "350aaa1a2a1ebc4a1f8dad1b8d055c85d4fec6855e79bedd9e79eed11e1ab040"
+    },
+    {
+      "symbol": "sh.600018",
+      "retrieved_at_utc": "2026-10-13T13:41:49.329805+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "2364731e480d974f7e0055df004489303cfe352d9272325e5016cf4842636fd6"
+    },
+    {
+      "symbol": "sh.600019",
+      "retrieved_at_utc": "2026-10-13T13:41:50.525159+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "4cc9f114b3562bb678bcc23073607c1fe8ca84b34018e2acb6821694730dc22f"
+    },
+    {
+      "symbol": "sh.600025",
+      "retrieved_at_utc": "2026-10-13T13:41:50.715370+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "229ffea6f4e62c785f8334813924ec5a19fdf2e275d762869f880e1ce8b1aa8d"
+    },
+    {
+      "symbol": "sh.600027",
+      "retrieved_at_utc": "2026-10-13T13:41:51.084191+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "01c515c6e0b45f470d63192741f3943640e3cbb74473de4d504e276a281c5a39"
+    },
+    {
+      "symbol": "sh.600028",
+      "retrieved_at_utc": "2026-10-13T13:41:52.143102+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "69cca6debbf7bbdb6f7897f858b46512c01657de035b7138beabe6327ee33a0c"
+    },
+    {
+      "symbol": "sh.600029",
+      "retrieved_at_utc": "2026-10-13T13:41:54.523673+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "61c1b1870f8ee4cf8d4d19b83ac7a9363d26507f7ce17cc57eacd43165be3fb9"
+    },
+    {
+      "symbol": "sh.600030",
+      "retrieved_at_utc": "2026-10-13T13:41:55.219047+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "a5365d5adef71eb0ee28c5a1f65ad9863d3e5a8a1b0ff96cb329389edfaa212c"
+    },
+    {
+      "symbol": "sh.600031",
+      "retrieved_at_utc": "2026-10-13T13:41:55.757465+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "dde01c9f58f202ba046a44b6c0e33e776bdf4d722211ae0f842899fd0be4c93b"
+    },
+    {
+      "symbol": "sh.600036",
+      "retrieved_at_utc": "2026-10-13T13:41:56.130253+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "fe25ff6faeff50d2ac7838915e3d6ef3556543ac0fa65d5238ec5434f33f4eac"
+    },
+    {
+      "symbol": "sh.600048",
+      "retrieved_at_utc": "2026-10-13T13:41:56.757738+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "921cfd7418c7904e39472d5b0fdd2657e5cfd277b116e8a81200b1884db79804"
+    },
+    {
+      "symbol": "sh.600050",
+      "retrieved_at_utc": "2026-10-13T13:41:57.637925+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "8221f409f66dc62913fd7917ce9ad6f5de20f88f938a640b91ad3afdd8adcdd4"
+    },
+    {
+      "symbol": "sh.600061",
+      "retrieved_at_utc": "2026-10-13T13:41:58.040390+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "27e9992af90eed509be84f0916b550d15ef6ffc3614b87bf5375ae12633cb81c"
+    },
+    {
+      "symbol": "sh.600066",
+      "retrieved_at_utc": "2026-10-13T13:41:58.830664+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "0665626c7263e8db955f18a0c8bba444f604cd252b6d29690583dfe4c2e22c5c"
+    },
+    {
+      "symbol": "sh.600068",
+      "retrieved_at_utc": "2026-10-13T13:41:58.963758+00:00",
+      "provider_rows": 0,
+      "delisted_missing_rows": 119,
+      "raw_sha256": "f7b74b359b248783508e3fa592cbad753e69e78b0bb8a6f664b8e20ae034c581"
+    },
+    {
+      "symbol": "sh.600085",
+      "retrieved_at_utc": "2026-10-13T13:41:59.213929+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "52ee9cdccd406feb48296ab74949aa463b03c7ff8af6b1848355b09ba782776e"
+    },
+    {
+      "symbol": "sh.600104",
+      "retrieved_at_utc": "2026-10-13T13:41:59.774857+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "1113adf600c6d4bdca209348dce6e594c6ac2556f87ee41eb14b7f552ebab1c9"
+    },
+    {
+      "symbol": "sh.600109",
+      "retrieved_at_utc": "2026-10-13T13:42:00.830280+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "0bbc82f1064769c87be3594bb42e86c8d1765f14b06f55d782148afa5e73d689"
+    },
+    {
+      "symbol": "sh.600111",
+      "retrieved_at_utc": "2026-10-13T13:42:01.584987+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "8758bad42cd660662173f48d07ea3f9daba2056ffe5b60d52a4d7e1214adc9d7"
+    },
+    {
+      "symbol": "sh.600115",
+      "retrieved_at_utc": "2026-10-13T13:42:03.963478+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "f49cb263b15d2e5810080819d3deeb48b9ee7f7bc9903731fb61797414e276bd"
+    },
+    {
+      "symbol": "sh.600118",
+      "retrieved_at_utc": "2026-10-13T13:42:06.024335+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "5bf87d442b9c8a29422f4d0e1cb900ed21c4a8000795099578df572142b89d40"
+    },
+    {
+      "symbol": "sh.600150",
+      "retrieved_at_utc": "2026-10-13T13:42:08.357123+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "7456e984b42df8c58a946b41eb5347165de8dd2eda199b31bccba77178faf72b"
+    },
+    {
+      "symbol": "sh.600161",
+      "retrieved_at_utc": "2026-10-13T13:42:18.842708+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "b140f0dee78819c8b4a735a1f98f97cb6524f724a51c7f892393f2ee226fdf79"
+    },
+    {
+      "symbol": "sh.600176",
+      "retrieved_at_utc": "2026-10-13T13:42:22.511731+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "097173c30986ff7931e7f50f8d524e2a4dfdbbeede5703412015cd30f8ff3077"
+    },
+    {
+      "symbol": "sh.600177",
+      "retrieved_at_utc": "2026-10-13T13:42:23.132840+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "b90953841d57d057a829e5af845414060eb228115db38baff1316243901c049a"
+    },
+    {
+      "symbol": "sh.600183",
+      "retrieved_at_utc": "2026-10-13T13:42:24.317616+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "f9276d85a995adfac0ae883c3116e8b2767426d73d4dafbe6280367b09916c34"
+    },
+    {
+      "symbol": "sh.600196",
+      "retrieved_at_utc": "2026-10-13T13:42:24.512462+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "00d568ad0c119ac7c1f4330969c128791f6a2246dd529a9aac8c0f15303b3c2f"
+    },
+    {
+      "symbol": "sh.600208",
+      "retrieved_at_utc": "2026-10-13T13:42:25.230608+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "10a38d7430369be666a149ad6ffe39152b35ed64281fff40ae76741c8da25a08"
+    },
+    {
+      "symbol": "sh.600233",
+      "retrieved_at_utc": "2026-10-13T13:42:26.220091+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "f7f191b144096c6d5441a70825f6149a6e8e017fadd84db753f66ae9635fcd43"
+    },
+    {
+      "symbol": "sh.600271",
+      "retrieved_at_utc": "2026-10-13T13:42:27.129092+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "f4d8d90b9d435ae7a68ab199a11c6928570e292badc2b4e0fc4f55cebecaefa4"
+    },
+    {
+      "symbol": "sh.600276",
+      "retrieved_at_utc": "2026-10-13T13:42:28.458580+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "4d3f8faeb94c9068b46581f0d5ce634afe0e67391ca27dbbc8886da030f908d2"
+    },
+    {
+      "symbol": "sh.600297",
+      "retrieved_at_utc": "2026-10-13T13:42:28.576051+00:00",
+      "provider_rows": 0,
+      "delisted_missing_rows": 119,
+      "raw_sha256": "f7b74b359b248783508e3fa592cbad753e69e78b0bb8a6f664b8e20ae034c581"
+    },
+    {
+      "symbol": "sh.600299",
+      "retrieved_at_utc": "2026-10-13T13:42:30.723050+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "cfed1780557c2673d04a052084415e40074e38a1fe9e4e2cc9df7e6c10d4166e"
+    },
+    {
+      "symbol": "sh.600309",
+      "retrieved_at_utc": "2026-10-13T13:42:31.331332+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "24d63f0edb8a9c97ad219806459dbc355873657ce86617b5f9b7a1c767f6e605"
+    },
+    {
+      "symbol": "sh.600332",
+      "retrieved_at_utc": "2026-10-13T13:42:32.155583+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "77dd323fce9c8f64f00459c2b12939bf17326fa514902e1c38e9ae030fd57a96"
+    },
+    {
+      "symbol": "sh.600340",
+      "retrieved_at_utc": "2026-10-13T13:42:32.362698+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "694509eed09c245a9eda33cbed23b4e4f9b2273c6820e91246fd13bf382fc1b4"
+    },
+    {
+      "symbol": "sh.600346",
+      "retrieved_at_utc": "2026-10-13T13:42:33.603531+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "dcd328c15e56c85d3517348bf0589e2c08c3ac0de7954587fd22f55971bd80ba"
+    },
+    {
+      "symbol": "sh.600352",
+      "retrieved_at_utc": "2026-10-13T13:42:39.025521+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "6b1fb3d25152a640ee57bdf4f6d9f82de800f236fccbdb46f716ede84bb944e3"
+    },
+    {
+      "symbol": "sh.600362",
+      "retrieved_at_utc": "2026-10-13T13:42:39.901173+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "38845f535dede41465bec22e570d6b4c7ca09ebeef985589a4d0b11f301df161"
+    },
+    {
+      "symbol": "sh.600369",
+      "retrieved_at_utc": "2026-10-13T13:42:41.224647+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "ecac9a9a87acf022930b8987c98ac0970f8e13d6e26c436ccc762da4eb9fa621"
+    },
+    {
+      "symbol": "sh.600383",
+      "retrieved_at_utc": "2026-10-13T13:42:41.954223+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "7e5189a19bbe192e57067ad55fa8bd78dc66628b417b19b066e9b54acfd3847b"
+    },
+    {
+      "symbol": "sh.600390",
+      "retrieved_at_utc": "2026-10-13T13:42:42.473772+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "759a0f1531045adabae730873f3d490a3c2898f472713b75f442be6c96d7db84"
+    },
+    {
+      "symbol": "sh.600406",
+      "retrieved_at_utc": "2026-10-13T13:42:44.136336+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "78a825823d0edf39b0329c133d1c3c7dd8f6d514d52a744254508791064f3ec8"
+    },
+    {
+      "symbol": "sh.600436",
+      "retrieved_at_utc": "2026-10-13T13:42:45.441438+00:00",
+      "provider_rows": 119,
+      "delisted_missing_rows": 0,
+      "raw_sha256": "eea075b8074637d574d0391e548a0f68f89a8ccb628022420dad4f72f84c08aa"
+    }
+  ],
+  "limits": "Retrieval-vintage adjusted daily bars, not real fills. Missing delisted prices remain blank. Historical dates are not backfilled signals.",
+  "artifacts": {
+    "calendar.csv": "1538f3a89e0747144842095f32055b1d4167abfd0156adf6bc5319f407b3692a",
+    "events.jsonl": "b98ba8d3a357e6efb2524b9e93a1e771e424b3cec376d38658217937adcc8695",
+    "panel.csv.gz": "a001dcd2473260e6ba35d3449ea4cb2089bfee1b09bd5841c99940874d5fc276",
+    "quality.json": "3d483e4fd844fce86bd80415a55d474088f607306b65186877ab2bb5d52fa1f8",
+    "raw/sh.600000.csv": "f1d91441ab7eddad6890e6ee2d96733f5a784484b2232c1123518ebbcfc61c8a",
+    "raw/sh.600004.csv": "b9980acdbdd2ab559c9ef990f4d6122915108024a6628806ecbb59e23c556434",
+    "raw/sh.600009.csv": "d5d7a32f1f066cbb2e1cd0c0191a3eaeb2f4d5ddaf878471945478b1150475c0",
+    "raw/sh.600010.csv": "05df631ab70f383a65e7e9a9ced8f34b4d2865bff568f3f7ef319ab4618507ce",
+    "raw/sh.600011.csv": "1759efc7d7fd4eda364e5de156eb72a23c74426846571eff5ca14e1d87edb4e8",
+    "raw/sh.600015.csv": "18be00258d9a5418fae0c9c2f424c69a68e4c304959f9ea2425f290db7cf0eb4",
+    "raw/sh.600016.csv": "350aaa1a2a1ebc4a1f8dad1b8d055c85d4fec6855e79bedd9e79eed11e1ab040",
+    "raw/sh.600018.csv": "2364731e480d974f7e0055df004489303cfe352d9272325e5016cf4842636fd6",
+    "raw/sh.600019.csv": "4cc9f114b3562bb678bcc23073607c1fe8ca84b34018e2acb6821694730dc22f",
+    "raw/sh.600025.csv": "229ffea6f4e62c785f8334813924ec5a19fdf2e275d762869f880e1ce8b1aa8d",
+    "raw/sh.600027.csv": "01c515c6e0b45f470d63192741f3943640e3cbb74473de4d504e276a281c5a39",
+    "raw/sh.600028.csv": "69cca6debbf7bbdb6f7897f858b46512c01657de035b7138beabe6327ee33a0c",
+    "raw/sh.600029.csv": "61c1b1870f8ee4cf8d4d19b83ac7a9363d26507f7ce17cc57eacd43165be3fb9",
+    "raw/sh.600030.csv": "a5365d5adef71eb0ee28c5a1f65ad9863d3e5a8a1b0ff96cb329389edfaa212c",
+    "raw/sh.600031.csv": "dde01c9f58f202ba046a44b6c0e33e776bdf4d722211ae0f842899fd0be4c93b",
+    "raw/sh.600036.csv": "fe25ff6faeff50d2ac7838915e3d6ef3556543ac0fa65d5238ec5434f33f4eac",
+    "raw/sh.600048.csv": "921cfd7418c7904e39472d5b0fdd2657e5cfd277b116e8a81200b1884db79804",
+    "raw/sh.600050.csv": "8221f409f66dc62913fd7917ce9ad6f5de20f88f938a640b91ad3afdd8adcdd4",
+    "raw/sh.600061.csv": "27e9992af90eed509be84f0916b550d15ef6ffc3614b87bf5375ae12633cb81c",
+    "raw/sh.600066.csv": "0665626c7263e8db955f18a0c8bba444f604cd252b6d29690583dfe4c2e22c5c",
+    "raw/sh.600068.csv": "f7b74b359b248783508e3fa592cbad753e69e78b0bb8a6f664b8e20ae034c581",
+    "raw/sh.600085.csv": "52ee9cdccd406feb48296ab74949aa463b03c7ff8af6b1848355b09ba782776e",
+    "raw/sh.600104.csv": "1113adf600c6d4bdca209348dce6e594c6ac2556f87ee41eb14b7f552ebab1c9",
+    "raw/sh.600109.csv": "0bbc82f1064769c87be3594bb42e86c8d1765f14b06f55d782148afa5e73d689",
+    "raw/sh.600111.csv": "8758bad42cd660662173f48d07ea3f9daba2056ffe5b60d52a4d7e1214adc9d7",
+    "raw/sh.600115.csv": "f49cb263b15d2e5810080819d3deeb48b9ee7f7bc9903731fb61797414e276bd",
+    "raw/sh.600118.csv": "5bf87d442b9c8a29422f4d0e1cb900ed21c4a8000795099578df572142b89d40",
+    "raw/sh.600150.csv": "7456e984b42df8c58a946b41eb5347165de8dd2eda199b31bccba77178faf72b",
+    "raw/sh.600161.csv": "b140f0dee78819c8b4a735a1f98f97cb6524f724a51c7f892393f2ee226fdf79",
+    "raw/sh.600176.csv": "097173c30986ff7931e7f50f8d524e2a4dfdbbeede5703412015cd30f8ff3077",
+    "raw/sh.600177.csv": "b90953841d57d057a829e5af845414060eb228115db38baff1316243901c049a",
+    "raw/sh.600183.csv": "f9276d85a995adfac0ae883c3116e8b2767426d73d4dafbe6280367b09916c34",
+    "raw/sh.600196.csv": "00d568ad0c119ac7c1f4330969c128791f6a2246dd529a9aac8c0f15303b3c2f",
+    "raw/sh.600208.csv": "10a38d7430369be666a149ad6ffe39152b35ed64281fff40ae76741c8da25a08",
+    "raw/sh.600233.csv": "f7f191b144096c6d5441a70825f6149a6e8e017fadd84db753f66ae9635fcd43",
+    "raw/sh.600271.csv": "f4d8d90b9d435ae7a68ab199a11c6928570e292badc2b4e0fc4f55cebecaefa4",
+    "raw/sh.600276.csv": "4d3f8faeb94c9068b46581f0d5ce634afe0e67391ca27dbbc8886da030f908d2",
+    "raw/sh.600297.csv": "f7b74b359b248783508e3fa592cbad753e69e78b0bb8a6f664b8e20ae034c581",
+    "raw/sh.600299.csv": "cfed1780557c2673d04a052084415e40074e38a1fe9e4e2cc9df7e6c10d4166e",
+    "raw/sh.600309.csv": "24d63f0edb8a9c97ad219806459dbc355873657ce86617b5f9b7a1c767f6e605",
+    "raw/sh.600332.csv": "77dd323fce9c8f64f00459c2b12939bf17326fa514902e1c38e9ae030fd57a96",
+    "raw/sh.600340.csv": "694509eed09c245a9eda33cbed23b4e4f9b2273c6820e91246fd13bf382fc1b4",
+    "raw/sh.600346.csv": "dcd328c15e56c85d3517348bf0589e2c08c3ac0de7954587fd22f55971bd80ba",
+    "raw/sh.600352.csv": "6b1fb3d25152a640ee57bdf4f6d9f82de800f236fccbdb46f716ede84bb944e3",
+    "raw/sh.600362.csv": "38845f535dede41465bec22e570d6b4c7ca09ebeef985589a4d0b11f301df161",
+    "raw/sh.600369.csv": "ecac9a9a87acf022930b8987c98ac0970f8e13d6e26c436ccc762da4eb9fa621",
+    "raw/sh.600383.csv": "7e5189a19bbe192e57067ad55fa8bd78dc66628b417b19b066e9b54acfd3847b",
+    "raw/sh.600390.csv": "759a0f1531045adabae730873f3d490a3c2898f472713b75f442be6c96d7db84",
+    "raw/sh.600406.csv": "78a825823d0edf39b0329c133d1c3c7dd8f6d514d52a744254508791064f3ec8",
+    "raw/sh.600436.csv": "eea075b8074637d574d0391e548a0f68f89a8ccb628022420dad4f72f84c08aa",
+    "stock_basic.csv": "cf1c6efeff4134978217026adda6ef49618091b120037b2eb2ba8dbc9f0e6e75"
+  }
+}

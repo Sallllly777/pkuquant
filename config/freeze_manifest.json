@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "frozen_at_utc": "2026-10-09T13:32:59.740858+00:00",
+  "method_version": "oversold-v2.0",
+  "selection": [
+    "O03_low_location_5d",
+    "O07_return_5d",
+    "O10_distance_low_20d"
+  ],
+  "source_sha256": {
+    "scripts/research_core.py": "570651e588d1277972cd273b8f26d1623ed886058a7211c6b9080b5fbed0a0c9",
+    "scripts/factor_definitions.py": "a7e78782a937f18b502de46a0a7af0351d676d32d4682446195acd24fefa7320",
+    "scripts/research_pipeline.py": "dae2b05b7e4be5ca22139ce9ab915ac67d02297b0f0a1f2bbdd6447a1deeee84",
+    "scripts/research_control.py": "2aa596105938262a3417b9c8664a98ab530fc090ede1b6a5a638499c66700f5a",
+    "scripts/download_holdout.py": "e51b56300c6b737cc6097fd49814aec44ea23738c72030f3372f4fa6734bc535"
+  },
+  "config": {
+    "method_version": "oversold-v2.0",
+    "input": "data/baostock_hs300_daily.csv",
+    "history": {
+      "start": "2017-01-01",
+      "end": "2020-12-31"
+    },
+    "development_train": {
+      "start": "2017-01-01",
+      "end": "2018-12-31"
+    },
+    "development_validation": {
+      "start": "2019-01-01",
+      "end": "2019-12-31"
+    },
+    "historical_review": {
+      "start": "2020-01-01",
+      "end": "2020-12-31"
+    },
+    "historical_holdout": {
+      "start": "2021-01-01",
+      "end": "2025-12-31"
+    },
+    "selection_count": 3,
+    "minimum_cross_section": 10,
+    "quantile_fraction": 0.2,
+    "annualization_days": 252,
+    "cost": {
+      "commission_bps": 3.0,
+      "slippage_bps": 2.0,
+      "sell_extra_bps": 10.0,
+      "short_borrow_annual_bps": 200.0
+    },
+    "sensitivity_all_in_bps": [
+      0,
+      5,
+      10,
+      20
+    ],
+    "cost_note": "Explicit research assumptions, not an asserted broker fee schedule. Sell surcharge held fixed as a conservative scenario. Short portfolio is diagnostic and assumes borrow availability.",
+    "universe_note": "50 stocks chosen from HS300 membership dated 2020-12-31; survivorship bias, no point-in-time membership reconstruction.",
+    "calendar_note": "Union of dates in source panel, not independently verified official exchange calendar.",
+    "execution_note": "Signal after close t, rebalance at open t+1, mark NAV at each subsequent open. Fractional shares; missing quotes block rebalance of held assets. Price limits, auction liquidity, board lots and actual borrow are unavailable; returns are a timing/cost research proxy, not executable PnL.",
+    "split_note": "All 2017-2020 data were previously inspected; these splits are development/history review, not a fresh test/lockbox. Holdout unlock requires a frozen manifest and is logged once. Future observations have not yet occurred."
+  },
+  "config_sha256": "9a5923757c6b00b6aabea87e11ad91f83a35b6b491d137f0490e9bdedf10d85e",
+  "history_input_sha256": "a08a4907d10a8578cff1bc0de6a7078cdc76e65e58e978d564ae2f137207a73f",
+  "development_run": "runs/revised_v2",
+  "development_manifest_sha256": "5be591759d3007c2cb70ad9c11fd093097f22d645355fe575f9553644f4afa55",
+  "development_selection_sha256": "1878b952c12bcbc709976f017af8c3b1a65378520fbbf52d54e1636c2d414a0d",
+  "git_base_commit": "0bba87174148833ddd896c3f933cf1800aec3a43",
+  "worktree_dirty_at_run": true,
+  "disclosure": "2017-2020 already inspected; later historical holdout is not post-freeze future data. Local timestamp is not independently notarized.",
+  "forward_status": "awaiting_actual_post_freeze_signals_and_outcomes"
+}

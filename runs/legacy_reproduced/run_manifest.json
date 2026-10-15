@@ -1,0 +1,11 @@
+{
+  "start": "2017-01-01",
+  "end": "2020-12-31",
+  "symbols": 50,
+  "rows": 47711,
+  "factor_count": 16,
+  "cost_bps": 5.0,
+  "top_bottom": 0.2,
+  "signal": "three-day close-near-low oversold rebound family",
+  "universe_note": "HS300 constituents as of 2020-12-31; survivorship bias present"
+}

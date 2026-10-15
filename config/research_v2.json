@@ -1,0 +1,20 @@
+{
+  "method_version": "oversold-v2.0",
+  "input": "data/baostock_hs300_daily.csv",
+  "history": {"start": "2017-01-01", "end": "2020-12-31"},
+  "development_train": {"start": "2017-01-01", "end": "2018-12-31"},
+  "development_validation": {"start": "2019-01-01", "end": "2019-12-31"},
+  "historical_review": {"start": "2020-01-01", "end": "2020-12-31"},
+  "historical_holdout": {"start": "2021-01-01", "end": "2025-12-31"},
+  "selection_count": 3,
+  "minimum_cross_section": 10,
+  "quantile_fraction": 0.2,
+  "annualization_days": 252,
+  "cost": {"commission_bps": 3.0, "slippage_bps": 2.0, "sell_extra_bps": 10.0, "short_borrow_annual_bps": 200.0},
+  "sensitivity_all_in_bps": [0, 5, 10, 20],
+  "cost_note": "Explicit research assumptions, not an asserted broker fee schedule. Sell surcharge held fixed as a conservative scenario. Short portfolio is diagnostic and assumes borrow availability.",
+  "universe_note": "50 stocks chosen from HS300 membership dated 2020-12-31; survivorship bias, no point-in-time membership reconstruction.",
+  "calendar_note": "Union of dates in source panel, not independently verified official exchange calendar.",
+  "execution_note": "Signal after close t, rebalance at open t+1, mark NAV at each subsequent open. Fractional shares; missing quotes block rebalance of held assets. Price limits, auction liquidity, board lots and actual borrow are unavailable; returns are a timing/cost research proxy, not executable PnL.",
+  "split_note": "All 2017-2020 data were previously inspected; these splits are development/history review, not a fresh test/lockbox. Holdout unlock requires a frozen manifest and is logged once. Future observations have not yet occurred."
+}

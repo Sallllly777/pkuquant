@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": {
+    "history_candidate_nav_series": 21,
+    "holdout_nav_series": 7
+  },
+  "scope": "archived artifact consistency only; no rerun or reselection"
+}

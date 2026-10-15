@@ -1,4 +1,5 @@
-pandas>=2.0
-numpy>=1.24
-matplotlib>=3.7
+pandas==2.2.3
+numpy==2.2.3
+scipy==1.17.1
+matplotlib==3.10.9
 baostock==00.9.40

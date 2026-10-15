@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-10-10T14:11:57.375839+00:00",
+  "freeze_sha256": "31d96bb07e3c5f58736113c6d9261fb2802276845753159d515854313582e83b",
+  "input_sha256": "46da6bbdc02115b8e52c3aba93f5c1f0f08e8677d0edd836cbada734db1087c7",
+  "bounds": {
+    "start": "2021-01-01",
+    "end": "2025-12-31"
+  },
+  "selection": [
+    "O03_low_location_5d",
+    "O07_return_5d",
+    "O10_distance_low_20d"
+  ],
+  "reselected": false,
+  "genuinely_post_freeze_data": false,
+  "limitations": "50 stocks chosen from HS300 membership dated 2020-12-31; survivorship bias, no point-in-time membership reconstruction. Signal after close t, rebalance at open t+1, mark NAV at each subsequent open. Fractional shares; missing quotes block rebalance of held assets. Price limits, auction liquidity, board lots and actual borrow are unavailable; returns are a timing/cost research proxy, not executable PnL."
+}

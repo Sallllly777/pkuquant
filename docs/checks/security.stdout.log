@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-15T13:28:09.201992+00:00",
+  "status": "pass",
+  "scope": "git-visible working files and all locally reachable history; textual ZIP members included",
+  "limitations": "Heuristic scan, not exhaustive. Does not inspect remote-only commits, ignored DPAPI credentials or native binary flow files.",
+  "text_blobs_scanned": 110,
+  "archives_scanned": 0,
+  "history_blobs_scanned": 10,
+  "findings": []
+}

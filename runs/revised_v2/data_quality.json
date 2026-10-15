@@ -1,0 +1,15 @@
+{
+  "input_rows": 48467,
+  "calendar_dates": 974,
+  "symbols": 50,
+  "panel_rows": 48700,
+  "absent_symbol_dates": 233,
+  "missing_turn_source_rows": 756,
+  "invalid_ohlc_rows": 0,
+  "zero_range_source_rows": 805,
+  "nonpositive_volume_rows": 756,
+  "start": "2017-01-03",
+  "end": "2020-12-31",
+  "calendar_source": "union of input dates; calendar gaps shared by all symbols are not independently detectable",
+  "input_sha256": "a08a4907d10a8578cff1bc0de6a7078cdc76e65e58e978d564ae2f137207a73f"
+}

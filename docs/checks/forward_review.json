@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-10-15T13:29:12.917240+00:00",
+  "passed": true,
+  "scope": "Exported proposed submission: source/input/signal hashes, 7 archived NAV series and cost parts; no re-evaluation of historical holdout.",
+  "run": "runs/forward_review_20261015_2121",
+  "series_checked": 7,
+  "signal_dates": [
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
+  ],
+  "mature_signal_dates": [
+    "2026-10-13"
+  ],
+  "pending_signal_dates": [
+    "2026-10-14",
+    "2026-10-15"
+  ],
+  "entry_date": "2026-10-14",
+  "exit_date": "2026-10-15",
+  "mature_holding_intervals": 1,
+  "annualized_metrics_used_for_inference": false,
+  "files_sha256": {
+    "manifest.json": "db4a05fcc2051fd64ccd10164f49329c66d96442be8704d2055aac6688229766",
+    "daily.csv.gz": "ee43e0a4e82cd80ff811e8fcf22f4cb3e5bf3373277f9d3a8123b42e68dbfd59",
+    "metrics.csv": "bd47b5bb2c437f0834cda1b89f7f3004f19d74277638fa78c4a7b9fbe9fc4186",
+    "evaluate_forward_original.py": "4ecfbb0fe4c291acbb17dc740a9ac1f9511d5eb1ce89f3bef22dc3807500dc49"
+  }
+}

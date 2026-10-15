@@ -1,0 +1,15 @@
+{
+  "input_rows": 5950,
+  "calendar_dates": 119,
+  "symbols": 50,
+  "panel_rows": 5950,
+  "absent_symbol_dates": 0,
+  "missing_turn_source_rows": 239,
+  "invalid_ohlc_rows": 0,
+  "zero_range_source_rows": 7,
+  "nonpositive_volume_rows": 238,
+  "start": "2026-04-16",
+  "end": "2026-10-13",
+  "calendar_source": "union of input dates; calendar gaps shared by all symbols are not independently detectable",
+  "input_sha256": "a001dcd2473260e6ba35d3449ea4cb2089bfee1b09bd5841c99940874d5fc276"
+}

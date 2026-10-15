@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "snapshot_count": 4,
+  "signal_count": 3,
+  "signal_dates": [
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
+  ],
+  "mature_signal_dates": [
+    "2026-10-13"
+  ],
+  "pending_signal_dates": [
+    "2026-10-14",
+    "2026-10-15"
+  ],
+  "latest_snapshot": "data/forward_v2/20261015-211942-261554",
+  "latest_data_date": "2026-10-15",
+  "failed_attempts": [],
+  "scope": "Provenance and maturity only. Historical snapshot dates without timely signals are not forward performance."
+}

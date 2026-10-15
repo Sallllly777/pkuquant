@@ -1,0 +1,320 @@
+{
+  "provider": "BaoStock",
+  "source_api": "query_history_k_data_plus",
+  "fields": "date,code,open,high,low,close,volume,amount,turn,pctChg,tradestatus,isST,adjustflag",
+  "adjustflag": "2 (forward adjusted)",
+  "start": "2020-08-01",
+  "end": "2025-12-31",
+  "warmup": "2020 only, not evaluated",
+  "started_at_utc": "2026-10-09T13:44:48.997409+00:00",
+  "completed_at_utc": "2026-10-09T13:49:14.085336+00:00",
+  "rows": 64384,
+  "symbols": 50,
+  "input_sha256": "46da6bbdc02115b8e52c3aba93f5c1f0f08e8677d0edd836cbada734db1087c7",
+  "freeze_sha256": "31d96bb07e3c5f58736113c6d9261fb2802276845753159d515854313582e83b",
+  "transport_source_sha256": "c70e8861909ba25c4d5a70cc85d3fe405a31c9b115a389ed592fbfba16c60a5d",
+  "transport_note": "Per-symbol cache/retry added after freeze; frozen request parameters unchanged; no factor evaluation during retrieval.",
+  "retrieval_by_symbol": [
+    {
+      "symbol": "sh.600000",
+      "retrieved_at": "2026-10-09T13:44:50.500490+00:00",
+      "sha256": "03badd99de65b7a51539b54767034c649dc199430477fa746ce6937b3a9774b1",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600004",
+      "retrieved_at": "2026-10-09T13:44:57.134006+00:00",
+      "sha256": "ace097ab5c7943e5b689bbfe9a319f23de7629a68da61b84f4b822b2c7128f31",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600009",
+      "retrieved_at": "2026-10-09T13:45:00.970673+00:00",
+      "sha256": "6f07a7920523b36eddddd6389791b5906baec749328705206904e44a6a975640",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600010",
+      "retrieved_at": "2026-10-09T13:45:03.977826+00:00",
+      "sha256": "9953a868b1ed82acab670d58526de9ace3fbc21aa93d63e746758bc1bcb701b2",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600011",
+      "retrieved_at": "2026-10-09T13:45:09.686124+00:00",
+      "sha256": "b4d275d8974215333b17b8d01e1d886ed44fe5f86acd7e805a018c69fc645942",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600015",
+      "retrieved_at": "2026-10-09T13:45:18.348004+00:00",
+      "sha256": "2699ef60c1935a5b2d8a449a73f88536ad28f352679776d88a3e1017b685b737",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600016",
+      "retrieved_at": "2026-10-09T13:45:20.511621+00:00",
+      "sha256": "1590f35e658827dd682dcadb03f05280e864790a89f7eb30fdf5304245c3c794",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600018",
+      "retrieved_at": "2026-10-09T13:45:24.483099+00:00",
+      "sha256": "c2fc1a6cc221b9f493f17499e4795bd4577512f235d32b1ad121305b49c4b6a8",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600019",
+      "retrieved_at": "2026-10-09T13:45:30.486076+00:00",
+      "sha256": "78ff03fa06e35b0d24f4bbb23bb5d195f6f9e3cacca381c2eb22840b0356a094",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600025",
+      "retrieved_at": "2026-10-09T13:45:31.772577+00:00",
+      "sha256": "a7b6088ff88adfd7ffc70675d1112b7018274ab0e3b74131b2252d7b8447b2c7",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600027",
+      "retrieved_at": "2026-10-09T13:45:35.368954+00:00",
+      "sha256": "2c32791fba5f0634295cf7d9faab9a868040d2f6d068708d79605f4128b7b11c",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600028",
+      "retrieved_at": "2026-10-09T13:45:36.475130+00:00",
+      "sha256": "f0dd1357f672fd871be7ca02a00c06f930529471b7fb642e74c7ffcb955012f5",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600029",
+      "retrieved_at": "2026-10-09T13:45:41.190919+00:00",
+      "sha256": "697627d14a94d6e412b381ae6eae9ec2fa712e1128d4ee7adb78125f303df220",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600030",
+      "retrieved_at": "2026-10-09T13:45:43.777331+00:00",
+      "sha256": "b3688880d32925da9e27d025e72ebad49307085df4468495250ca8d399604bee",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600031",
+      "retrieved_at": "2026-10-09T13:45:47.640061+00:00",
+      "sha256": "a29f0dc819ae77d2c6aaf4cbb87b31d3cfabda539ecb25697c736e68646c0e8d",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600036",
+      "retrieved_at": "2026-10-09T13:45:50.801582+00:00",
+      "sha256": "3b216577e018bdb79a7676af23cb0390b26024397d867e92e0ecb1e312d96289",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600048",
+      "retrieved_at": "2026-10-09T13:45:58.315843+00:00",
+      "sha256": "7c181350e790eeac5993e1700c2f3a6694a3fd27708d6be1a5235f7e4f1b9091",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600050",
+      "retrieved_at": "2026-10-09T13:46:01.917829+00:00",
+      "sha256": "cb25998f21d32d11530a8bc78185a569d476d29b31ce5f2d6a4320949e23dbea",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600061",
+      "retrieved_at": "2026-10-09T13:46:05.610755+00:00",
+      "sha256": "e66585674f8ca1c7c3f83974f31a5ca0109b3b2a577f49b258d1296c286e834a",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600066",
+      "retrieved_at": "2026-10-09T13:46:11.836840+00:00",
+      "sha256": "71a76a796d98ebcd93856b674db944ed969c93d6d397861a604ec02e267f9893",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600068",
+      "retrieved_at": "2026-10-09T13:46:15.425111+00:00",
+      "sha256": "b205297c0fba58952d1082978a92d1db6675159105a040f81b6931cc31747d5f",
+      "rows": 274
+    },
+    {
+      "symbol": "sh.600085",
+      "retrieved_at": "2026-10-09T13:46:22.770854+00:00",
+      "sha256": "813bd884bc4a9a9456d3c495505d2eef05e0a6f0b20049422199b122223f5864",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600104",
+      "retrieved_at": "2026-10-09T13:46:25.675711+00:00",
+      "sha256": "417c95e0d10de7783f042c33afaef2e7de083f3251edb342f9fb93b4d8602b3f",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600109",
+      "retrieved_at": "2026-10-09T13:46:30.560350+00:00",
+      "sha256": "295bf12b573578da28a542a019ef8315f4e4f34de15974e92a0302bdc108f59d",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600111",
+      "retrieved_at": "2026-10-09T13:46:33.510010+00:00",
+      "sha256": "d3371da2ae58d3ee10014a328fb34f35a7804ab2a3d8734d4c033370677414dc",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600115",
+      "retrieved_at": "2026-10-09T13:46:38.601104+00:00",
+      "sha256": "3f9e312894b066b28ee46463eeecfe75427be2873fa899edc7b6eb1d70b69309",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600118",
+      "retrieved_at": "2026-10-09T13:46:55.693963+00:00",
+      "sha256": "febc7806c6c5e6ed2eae0dae3d63ddce18cdfce2a4fd26168b1d65f4898ed2b6",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600150",
+      "retrieved_at": "2026-10-09T13:47:00.720863+00:00",
+      "sha256": "df4ad18c61276a6e292bcb952f18baec1eadec794735d051d1ae51be108a068a",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600161",
+      "retrieved_at": "2026-10-09T13:47:05.536871+00:00",
+      "sha256": "6af50516c9d71047a6a13afcb7af04533ef198fa0f39ed308f0042d0b5ce919f",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600176",
+      "retrieved_at": "2026-10-09T13:47:07.918337+00:00",
+      "sha256": "6f3b6faeea5cb857a140aa5e1565fbb501b86354feca9680b4f1b505afd08d30",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600177",
+      "retrieved_at": "2026-10-09T13:47:11.234746+00:00",
+      "sha256": "2d9f728cefae60829ba8d40a3635ca4f6a06ca40090bbb70a0b99865ea02c1e2",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600183",
+      "retrieved_at": "2026-10-09T13:47:19.582633+00:00",
+      "sha256": "4eda151643187b2dcc152e5aed8c5f0b2d1e613d89ea0ba76da60720d2f1ace5",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600196",
+      "retrieved_at": "2026-10-09T13:47:42.802406+00:00",
+      "sha256": "078e0ad47ad2a837105706e206985a6159cf0c6692308a93d2ba846be0337917",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600208",
+      "retrieved_at": "2026-10-09T13:47:46.011367+00:00",
+      "sha256": "daa96bcd1eb4714c0189fe04ac059a552f9e11f3f1613c0819281302542737a1",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600233",
+      "retrieved_at": "2026-10-09T13:47:52.782971+00:00",
+      "sha256": "c297653a1cb5f04175648328d934ba9f70a5e6bea904e71615c1604a972ae357",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600271",
+      "retrieved_at": "2026-10-09T13:47:53.768666+00:00",
+      "sha256": "69e2673ca52d4c81d1dcb683cca8bbbb5bdf1f44157b88ce921b2c6bea6ae633",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600276",
+      "retrieved_at": "2026-10-09T13:47:55.906144+00:00",
+      "sha256": "de27b722eee64f7997b355411cd4922161ff5b28d36752dc548176079f600b86",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600297",
+      "retrieved_at": "2026-10-09T13:47:58.542418+00:00",
+      "sha256": "8c675ad1036f83c5beeb5dbb45844bdf8867b8f9d64451d558f7bb625bf49cf9",
+      "rows": 990
+    },
+    {
+      "symbol": "sh.600299",
+      "retrieved_at": "2026-10-09T13:48:00.661032+00:00",
+      "sha256": "568688252189f4ef4675b189fcdb677dc90e6f3623b3bc572f1d193f027dde29",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600309",
+      "retrieved_at": "2026-10-09T13:48:08.250803+00:00",
+      "sha256": "23bc18ec944f18611a9b6d73483caf9505a94b9661adee216b5b13603f605d52",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600332",
+      "retrieved_at": "2026-10-09T13:48:11.785049+00:00",
+      "sha256": "d498d801907e68527ae1382918b7f1ee27a25bf19768a4ab8c0b5cb4db8513f4",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600340",
+      "retrieved_at": "2026-10-09T13:48:14.360407+00:00",
+      "sha256": "c356c45679bf109a4830b8682d604c7fa9e984f4d7405304464de56c128c5be2",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600346",
+      "retrieved_at": "2026-10-09T13:48:34.783997+00:00",
+      "sha256": "8be83ba0d1d5ddd8bd7b7bc4f982eae6a8a5374f0ee8a688c3c63dd81c1d3983",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600352",
+      "retrieved_at": "2026-10-09T13:48:42.761950+00:00",
+      "sha256": "108047cb29eb34415b44a38bab58051611266c2890c4da7e71bc4bd9402b773a",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600362",
+      "retrieved_at": "2026-10-09T13:48:53.411065+00:00",
+      "sha256": "ca2b8b98fcd931baa17c220542b7e4e3a5236d7e3e81b8a48f0d15a70946c8b3",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600369",
+      "retrieved_at": "2026-10-09T13:48:56.444982+00:00",
+      "sha256": "11b200bce1657255804685a63aaa0f3205e4894ab849959c2e7dad71a050aec8",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600383",
+      "retrieved_at": "2026-10-09T13:48:59.125098+00:00",
+      "sha256": "bfcef8eb5441a858b19319727461a32516e5f356d57c0bc71f346591a530ea5b",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600390",
+      "retrieved_at": "2026-10-09T13:49:08.035337+00:00",
+      "sha256": "55befc9da45add5d9aae331feb2681d3627fdd5f515346d7b1b9659231428b91",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600406",
+      "retrieved_at": "2026-10-09T13:49:12.128582+00:00",
+      "sha256": "471bf4ebade652b1944c773ba48e0daa10db4bbfc01819d1b4def3b302031876",
+      "rows": 1315
+    },
+    {
+      "symbol": "sh.600436",
+      "retrieved_at": "2026-10-09T13:49:13.900716+00:00",
+      "sha256": "b9b037dcf9dbe199449ba08bc9ad2e4346d490606ace9230272e7e0a67d398f6",
+      "rows": 1315
+    }
+  ],
+  "note": "Frozen 2020 universe, retrieval-vintage forward adjustment, no point-in-time membership."
+}

@@ -1,0 +1,42 @@
+Failed to find real location of C:\veighna_studio\python.exe
+test_after_close_uses_today (test_collection.CollectionTests.test_after_close_uses_today) ... ok
+test_duplicate_provider_rows_rejected (test_collection.CollectionTests.test_duplicate_provider_rows_rejected) ... ok
+test_holiday_never_backfills (test_collection.CollectionTests.test_holiday_never_backfills) ... ok
+test_midday_cannot_record (test_collection.CollectionTests.test_midday_cannot_record) ... ok
+test_midday_observation_uses_prior_day (test_collection.CollectionTests.test_midday_observation_uses_prior_day) ... ok
+test_retired_stock_keeps_blank_prices (test_collection.CollectionTests.test_retired_stock_keeps_blank_prices) ... ok
+test_retirement_does_not_explain_prior_gap (test_collection.CollectionTests.test_retirement_does_not_explain_prior_gap) ... ok
+test_unknown_missing_stock_rejected (test_collection.CollectionTests.test_unknown_missing_stock_rejected) ... ok
+test_forward_cannot_backdate (test_control.ControlTests.test_forward_cannot_backdate) ... ok
+test_forward_cannot_record_before_close (test_control.ControlTests.test_forward_cannot_record_before_close) ... ok
+test_forward_same_day_after_close (test_control.ControlTests.test_forward_same_day_after_close) ... ok
+test_frozen_source_change_rejected (test_control.ControlTests.test_frozen_source_change_rejected) ... ok
+test_holdout_second_access_rejected (test_control.ControlTests.test_holdout_second_access_rejected) ... ok
+test_report_uses_designated_order_without_reselection (test_control.ControlTests.test_report_uses_designated_order_without_reselection) ... ok
+test_baseline_does_not_trade_before_first_signal (test_forward.ForwardTests.test_baseline_does_not_trade_before_first_signal) ... ok
+test_different_experiment_rejected (test_forward.ForwardTests.test_different_experiment_rejected) ... ok
+test_long_short_gain_does_not_disguise_long_only_loss (test_forward.ForwardTests.test_long_short_gain_does_not_disguise_long_only_loss) ... ok
+test_only_recorded_scores_used (test_forward.ForwardTests.test_only_recorded_scores_used) ... ok
+test_post_open_backfill_rejected (test_forward.ForwardTests.test_post_open_backfill_rejected) ... ok
+test_constant_signal_does_not_create_arbitrary_portfolio (test_research.ResearchTests.test_constant_signal_does_not_create_arbitrary_portfolio) ... ok
+test_cost_book_self_financing (test_research.ResearchTests.test_cost_book_self_financing) ... ok
+test_factor_missing_does_not_change_label (test_research.ResearchTests.test_factor_missing_does_not_change_label) ... ok
+test_first_loss_in_drawdown (test_research.ResearchTests.test_first_loss_in_drawdown) ... ok
+test_full_traded_notional_cost (test_research.ResearchTests.test_full_traded_notional_cost) ... ok
+test_future_data_does_not_change_past_factor (test_research.ResearchTests.test_future_data_does_not_change_past_factor) ... ok
+test_horizon_three_uses_exact_calendar_end (test_research.ResearchTests.test_horizon_three_uses_exact_calendar_end) ... ok
+test_ic_purges_cross_boundary_labels (test_research.ResearchTests.test_ic_purges_cross_boundary_labels) ... ok
+test_missing_calendar_day_not_spliced (test_research.ResearchTests.test_missing_calendar_day_not_spliced) ... ok
+test_missing_quote_keeps_calendar_and_blocks_held_rebalance (test_research.ResearchTests.test_missing_quote_keeps_calendar_and_blocks_held_rebalance) ... ok
+test_missing_turn_does_not_delete_price (test_research.ResearchTests.test_missing_turn_does_not_delete_price) ... ok
+test_new_interaction_versions_have_declared_direction (test_research.ResearchTests.test_new_interaction_versions_have_declared_direction) ... ok
+test_next_open_lag_and_liquidation (test_research.ResearchTests.test_next_open_lag_and_liquidation) ... ok
+test_selected_ids_do_not_depend_on_input_row_order (test_research.ResearchTests.test_selected_ids_do_not_depend_on_input_row_order) ... ok
+test_unknown_future_return_does_not_filter_selection (test_research.ResearchTests.test_unknown_future_return_does_not_filter_selection) ... ok
+test_weight_gross_one (test_research.ResearchTests.test_weight_gross_one) ... ok
+test_zero_range_no_infinity (test_research.ResearchTests.test_zero_range_no_infinity) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 5.716s
+
+OK

@@ -1,0 +1,12 @@
+{
+  "started_at_utc": "2026-10-15T13:19:42.806192+00:00",
+  "observe_only": false,
+  "status": "signal_recorded",
+  "signal_created": true,
+  "folder": "data/forward_v2/20261015-211942-261554",
+  "signal": "runs/forward_v2/2026-10-15.json",
+  "signal_sha256": "356ea74a2ef29fde2dfc2aed13064af4be5505498aa3d7448355db5abb149434",
+  "end": "2026-10-15",
+  "rows": 5950,
+  "finished_at_utc": "2026-10-15T13:20:22.270975+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-10-15T13:20:59.945790+00:00",
+  "freeze_sha256": "31d96bb07e3c5f58736113c6d9261fb2802276845753159d515854313582e83b",
+  "source_sha256": "4ecfbb0fe4c291acbb17dc740a9ac1f9511d5eb1ce89f3bef22dc3807500dc49",
+  "input_sha256": "4b9884b21dc561927dbe47ec6e498580c819d8f4c66ad7736fbd40ffe56216a9",
+  "signal_hashes": {
+    "2026-10-13.json": "f270a440a80d477def335b01a7b56bd5fe1d3c4e6f1089df1db065989b514379",
+    "2026-10-14.json": "c9ed3390983cfe4a1e97a59eec475b1ce12db356ab62e3c29ba0b336c81966c5",
+    "2026-10-15.json": "356ea74a2ef29fde2dfc2aed13064af4be5505498aa3d7448355db5abb149434"
+  },
+  "status": "prospectively_recorded_signal_price_proxy",
+  "signal_count": 3,
+  "date_start": "2026-10-13",
+  "date_end": "2026-10-15",
+  "missing_signal_policy": "cash target at next open, subject to held-quote blocking",
+  "limits": "Not actual fills; frozen open-price proxy, theoretical shorts, forced terminal liquidation, original universe and data limitations apply."
+}

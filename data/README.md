@@ -1,5 +1,9 @@
-# BaoStock data
+# 数据与可追溯性
 
-`baostock_hs300_daily.csv` contains 2017-01-01 to 2020-12-31 forward-adjusted daily bars for 50 constituents selected from the HS300 list returned for 2020-12-31. Fields include OHLC, volume, amount-derived turnover, and BaoStock turnover rate.
+`baostock_hs300_daily.csv`：旧实验的原始输入保持不变，2017-01-03 至 2020-12-31，共 48,467 行、974 个观测日期、50 只股票。SHA-256 `a08a4907d10a8578cff1bc0de6a7078cdc76e65e58e978d564ae2f137207a73f`。
 
-The constituent list is frozen for this course experiment. A production study should use point-in-time constituents and announcement-date lagged fundamentals.
+原来源 BaoStock 前复权日线；`turn` 为源换手率，`turnover` 为成交金额字段；股票 `open_interest` 的 0 占位不用于因子。股票池按 2020-12-31 成分查询选取固定 50 只，不能视为每个历史时点的全体沪深 300 成分。
+
+v2 质量核查：756 行源换手率缺失；233 个股票×日期组合缺记录，805 行零振幅，756 行非正成交量。缺换手率不删除价格，不跨缺失日期拼收益；明细见 `runs/revised_v2/data_quality.json`。
+
+新增留出数据由 `scripts/download_holdout.py` 在实验冻结后单独获取，不覆盖旧输入；若下载成功，`holdout_2021_2025.csv` 含 2020-08 起的暖机记录及 2021–2025 评价段，`.manifest.json` 保存获取时间、字段、哈希与冻结文件哈希。退市股票可能只有较短历史，不能为改善表现而事后更换股票池。数据源 SDK 版本 BaoStock 00.9.40，接口说明见 [BaoStock 官方站](http://baostock.com)。

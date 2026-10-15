@@ -1,0 +1,766 @@
+{
+  "recorded_at_utc": "2026-10-15T13:20:21.000656+00:00",
+  "signal_date": "2026-10-15",
+  "freeze_sha256": "31d96bb07e3c5f58736113c6d9261fb2802276845753159d515854313582e83b",
+  "input_sha256": "4b9884b21dc561927dbe47ec6e498580c819d8f4c66ad7736fbd40ffe56216a9",
+  "signals": {
+    "O03_low_location_5d": [
+      {
+        "symbol": "sh.600000",
+        "score": -0.43446670976082863,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600004",
+        "score": -0.656470588235295,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600009",
+        "score": -0.7043267994032003,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600010",
+        "score": -0.3485714285714302,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600011",
+        "score": -0.54900273874732,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600015",
+        "score": -0.39340659340659434,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600016",
+        "score": -0.38476190476190475,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600018",
+        "score": -0.4353174603174589,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600019",
+        "score": -0.45499999999999907,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600025",
+        "score": -0.3856654456654443,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600027",
+        "score": -0.3935098235098245,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600028",
+        "score": -0.42280701754385835,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600029",
+        "score": -0.4199999999999996,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600030",
+        "score": -0.7265263137173846,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600031",
+        "score": -0.5063892998215637,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600036",
+        "score": -0.5663849217915071,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600048",
+        "score": -0.2744756257940841,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600050",
+        "score": -0.7857142857142857,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600061",
+        "score": -0.7171600621600603,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600066",
+        "score": -0.598103723163523,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600068",
+        "score": null,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600085",
+        "score": -0.7318919954486264,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600104",
+        "score": -0.5025146198830412,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600109",
+        "score": -0.5218520609824974,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600111",
+        "score": -0.5716020688224606,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600115",
+        "score": -0.4423809523809508,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600118",
+        "score": -0.34757369036025626,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600150",
+        "score": -0.3358769471917028,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600161",
+        "score": -0.4339639797167335,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600176",
+        "score": -0.38126669805302915,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600177",
+        "score": -0.5108823529411769,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600183",
+        "score": -0.3814844258588734,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600196",
+        "score": -0.3930112210108275,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600208",
+        "score": -0.3190476190476183,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600233",
+        "score": -0.40891731542560583,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600271",
+        "score": -0.5943426943426949,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600276",
+        "score": -0.6518820752456266,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600297",
+        "score": null,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600299",
+        "score": -0.3480500006815781,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600309",
+        "score": -0.3625812052725419,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600332",
+        "score": -0.6035465587044501,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600340",
+        "score": -0.34190476190476204,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600346",
+        "score": -0.41415151515151455,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600352",
+        "score": -0.36479687646273373,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600362",
+        "score": -0.3910752661609385,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600369",
+        "score": -0.6100000000000001,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600383",
+        "score": -0.2534798534798534,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600390",
+        "score": -0.47111111111111204,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600406",
+        "score": -0.44100583954242617,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600436",
+        "score": -0.5824676525973234,
+        "target_weight": 0.0
+      }
+    ],
+    "O07_return_5d": [
+      {
+        "symbol": "sh.600000",
+        "score": 0.005920772511038175,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600004",
+        "score": -0.02464041780420423,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600009",
+        "score": -0.035624190067908734,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600010",
+        "score": 0.018845563170072466,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600011",
+        "score": -0.03905239912655767,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600015",
+        "score": 0.005989943495499639,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600016",
+        "score": 0.008175545859808286,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600018",
+        "score": 0.003377273306766182,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600019",
+        "score": -0.00042375276354089664,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600025",
+        "score": -0.028288846914634624,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600027",
+        "score": 0.003522376967677987,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600028",
+        "score": 0.009386775310722628,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600029",
+        "score": 0.025040478898411656,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600030",
+        "score": -0.0324734613776525,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600031",
+        "score": -0.042179241283564206,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600036",
+        "score": -0.023062465710819047,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600048",
+        "score": 0.0893928835344262,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600050",
+        "score": -0.027832790387455564,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600061",
+        "score": -0.030882149967791928,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600066",
+        "score": -0.05508805829998653,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600068",
+        "score": null,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600085",
+        "score": -0.03429184628695747,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600104",
+        "score": 0.018341220290908677,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600109",
+        "score": -0.016231720144632256,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600111",
+        "score": -0.01970590498353797,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600115",
+        "score": 0.040166819561468614,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600118",
+        "score": 0.13106304341081165,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600150",
+        "score": 0.11201223991660869,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600161",
+        "score": 0.017307662455061656,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600176",
+        "score": 0.13830391598158942,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600177",
+        "score": -0.0096954731553206,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600183",
+        "score": 0.1364397874239356,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600196",
+        "score": 0.02414221757603685,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600208",
+        "score": 0.031603909732858204,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600233",
+        "score": 0.01722886026068915,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600271",
+        "score": -0.006789610078423047,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600276",
+        "score": 0.008244185882950394,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600297",
+        "score": null,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600299",
+        "score": 0.05691200982279798,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600309",
+        "score": 0.07083764923914393,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600332",
+        "score": -0.010348269170641688,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600340",
+        "score": 0.11508591684935532,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600346",
+        "score": 0.07222643578309573,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600352",
+        "score": 0.1270098330239785,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600362",
+        "score": 0.07195984244958442,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600369",
+        "score": -0.02310961845213655,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600383",
+        "score": 0.13484004167127683,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600390",
+        "score": 0.008165772167322949,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600406",
+        "score": 0.015667674380530072,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600436",
+        "score": -0.02290645289993798,
+        "target_weight": 0.0
+      }
+    ],
+    "O10_distance_low_20d": [
+      {
+        "symbol": "sh.600000",
+        "score": -0.07349665924276172,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600004",
+        "score": -0.03693931398416894,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600009",
+        "score": -0.043828264758497326,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600010",
+        "score": -0.0,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600011",
+        "score": -0.11572700296735894,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600015",
+        "score": -0.014563106796116498,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600016",
+        "score": -0.02034883720930236,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600018",
+        "score": -0.029650237414379887,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600019",
+        "score": -0.04537241264374314,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600025",
+        "score": -0.08125000000000004,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600027",
+        "score": -0.07531380753138062,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600028",
+        "score": -0.07483093117676298,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600029",
+        "score": -0.0,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600030",
+        "score": -0.03267716535433074,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600031",
+        "score": -0.0471976401179941,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600036",
+        "score": -0.05307331523080716,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600048",
+        "score": -0.05189620758483038,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600050",
+        "score": -0.06295399515738498,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600061",
+        "score": -0.034482758620689724,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600066",
+        "score": -0.12277227722772288,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600068",
+        "score": null,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600085",
+        "score": -0.069084628670121,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600104",
+        "score": -0.0018674136321195078,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600109",
+        "score": -0.022499999999999964,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600111",
+        "score": -0.01855072463768126,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600115",
+        "score": -0.0,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600118",
+        "score": -0.0,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600150",
+        "score": -0.0,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600161",
+        "score": -0.03323036275179514,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600176",
+        "score": -0.0,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600177",
+        "score": -0.04691316665158851,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600183",
+        "score": -0.0,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600196",
+        "score": -0.07361111111111107,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600208",
+        "score": -0.0,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600233",
+        "score": -0.030696576151121535,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600271",
+        "score": -0.009160305343511421,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600276",
+        "score": -0.09210217951722521,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600297",
+        "score": null,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600299",
+        "score": -0.0,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600309",
+        "score": -0.0,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600332",
+        "score": -0.02578648788035065,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600340",
+        "score": -0.12264150943396213,
+        "target_weight": -0.05555555555555555
+      },
+      {
+        "symbol": "sh.600346",
+        "score": -0.0,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600352",
+        "score": -0.0,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600362",
+        "score": -0.0,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600369",
+        "score": -0.028510037867396143,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600383",
+        "score": -0.04186046511627928,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600390",
+        "score": -0.0,
+        "target_weight": 0.05555555555555555
+      },
+      {
+        "symbol": "sh.600406",
+        "score": -0.03143462110743367,
+        "target_weight": 0.0
+      },
+      {
+        "symbol": "sh.600436",
+        "score": -0.04921020656136088,
+        "target_weight": 0.0
+      }
+    ]
+  },
+  "execution": "proposed next-open target; no orders submitted; actual next-open eligibility still required",
+  "outcomes": "pending; never substitute historical backfill"
+}

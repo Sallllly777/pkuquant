@@ -1,0 +1,121 @@
+{
+  "generated_at_utc": "2026-10-15T13:28:09.226519+00:00",
+  "scope": "local offline checks; no account connection or orders",
+  "python": "3.13.8 (heads/4.1-dirty:851bb6b, Dec  6 2025, 16:17:24) [MSC v.1936 64 bit (AMD64)]",
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "syntax",
+      "arguments": [
+        "-c",
+        "from pathlib import Path; paths=list(Path('scripts').rglob('*.py'))+list(Path('tests').glob('*.py')); [compile(p.read_text(encoding='utf-8-sig'),str(p),'exec') for p in paths]; print('Compiled',len(paths),'Python files without executing them.')"
+      ],
+      "started_at_utc": "2026-10-15T13:27:49.834819+00:00",
+      "duration_seconds": 0.227,
+      "exit_code": 0,
+      "stdout": "syntax.stdout.log",
+      "stderr": "syntax.stderr.log"
+    },
+    {
+      "check": "unit_tests",
+      "arguments": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "started_at_utc": "2026-10-15T13:27:50.062025+00:00",
+      "duration_seconds": 8.229,
+      "exit_code": 0,
+      "stdout": "unit_tests.stdout.log",
+      "stderr": "unit_tests.stderr.log"
+    },
+    {
+      "check": "freeze_integrity",
+      "arguments": [
+        "scripts/research_control.py",
+        "verify"
+      ],
+      "started_at_utc": "2026-10-15T13:27:58.290995+00:00",
+      "duration_seconds": 1.758,
+      "exit_code": 0,
+      "stdout": "freeze_integrity.stdout.log",
+      "stderr": "freeze_integrity.stderr.log"
+    },
+    {
+      "check": "results_integrity",
+      "arguments": [
+        "scripts/verify_results.py"
+      ],
+      "started_at_utc": "2026-10-15T13:28:00.049030+00:00",
+      "duration_seconds": 2.015,
+      "exit_code": 0,
+      "stdout": "results_integrity.stdout.log",
+      "stderr": "results_integrity.stderr.log"
+    },
+    {
+      "check": "forward_provenance",
+      "arguments": [
+        "scripts/verify_forward.py",
+        "--output",
+        "docs/checks/forward_status.json"
+      ],
+      "started_at_utc": "2026-10-15T13:28:02.064276+00:00",
+      "duration_seconds": 3.695,
+      "exit_code": 0,
+      "stdout": "forward_provenance.stdout.log",
+      "stderr": "forward_provenance.stderr.log"
+    },
+    {
+      "check": "documentation",
+      "arguments": [
+        "scripts/check_docs.py",
+        "--output",
+        "docs/checks/documentation.json"
+      ],
+      "started_at_utc": "2026-10-15T13:28:05.759820+00:00",
+      "duration_seconds": 0.739,
+      "exit_code": 0,
+      "stdout": "documentation.stdout.log",
+      "stderr": "documentation.stderr.log"
+    },
+    {
+      "check": "security",
+      "arguments": [
+        "scripts/check_secrets.py",
+        "--output",
+        "docs/checks/security.json"
+      ],
+      "started_at_utc": "2026-10-15T13:28:06.499024+00:00",
+      "duration_seconds": 2.725,
+      "exit_code": 0,
+      "stdout": "security.stdout.log",
+      "stderr": "security.stderr.log"
+    }
+  ],
+  "source_sha256": {
+    "scripts/build_final_report.py": "2ba32bc66cb54e18d494b92f86dcbf07be4670bfdbe15ce0c1bef1676f520905",
+    "scripts/check_docs.py": "8e68d3f8c6b5b97a20ac66e328b71ebeb591b4ce93c7f4374925824aee8b8743",
+    "scripts/check_secrets.py": "c68b502ca60dad450c19f0f5216c49706bc116ed2143829f00e6a2d27e839361",
+    "scripts/collect_forward.py": "2029b9db3dde4662b106626775a636e433538ac293c1acc20983b7152a74a325",
+    "scripts/download_holdout.py": "e51b56300c6b737cc6097fd49814aec44ea23738c72030f3372f4fa6734bc535",
+    "scripts/evaluate_forward.py": "4ecfbb0fe4c291acbb17dc740a9ac1f9511d5eb1ce89f3bef22dc3807500dc49",
+    "scripts/factor_definitions.py": "a7e78782a937f18b502de46a0a7af0351d676d32d4682446195acd24fefa7320",
+    "scripts/fetch_holdout_cached.py": "c70e8861909ba25c4d5a70cc85d3fe405a31c9b115a389ed592fbfba16c60a5d",
+    "scripts/report_holdout.py": "7d8cbd8389be9892fff8916fae586ce3dae7c997973346147a196c9282d749f6",
+    "scripts/report_v2.py": "cb3dd04a5379d302d51a025e44c4114bdddcf2aec66fc924c670ede296ae1fcb",
+    "scripts/research_control.py": "2aa596105938262a3417b9c8664a98ab530fc090ede1b6a5a638499c66700f5a",
+    "scripts/research_core.py": "570651e588d1277972cd273b8f26d1623ed886058a7211c6b9080b5fbed0a0c9",
+    "scripts/research_pipeline.py": "dae2b05b7e4be5ca22139ce9ab915ac67d02297b0f0a1f2bbdd6447a1deeee84",
+    "scripts/run_checks.py": "a1fe386e7c688863b130cca706851fe4ea5a3fb32677ec6d8a2ca00e3b18f803",
+    "scripts/run_oversold_rebound_backtest.py": "150a8817199197910595a85776110b23f1f6437e57fc6ce8bdf326b9fcafd13c",
+    "scripts/verify_forward.py": "ac7262c4f17b120e39f07e3b404371cd25c333514b0fcfc38bb7307c4e1c0594",
+    "scripts/verify_results.py": "cebbfd06b9667ab036ee7b10611c5a1bb3d32a7cfcfbcf1206dfc79900882a9a",
+    "tests/test_collection.py": "1f7fac63a86bed396e6f7a3a49a6b7a4c2656e71ed3b01666a285f6abc2756ce",
+    "tests/test_control.py": "ba872585cee2bd01109669515de12b84203c42e90a3f3295c28c8838fb3bbb93",
+    "tests/test_forward.py": "d396e4633f9cb17955a202efda4ac43a41d79b3c1131441cec1e862af62a0823",
+    "tests/test_research.py": "15006df510d81d8849827efcadda94163d1045fe14539bfe48cb16c4664bb8b2"
+  }
+}

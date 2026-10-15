@@ -1,15 +1,36 @@
-# Research notes
+# 方法修正与验收口径
 
-## Signal construction
+## 研究问题与版本
 
-The seed expression is `-rank(ts_sum((close-low)/(high-close), 3))`. The implementation also includes a bounded close-location variant using `(close-low)/(high-low)` to avoid instability when the close is equal to the high.
+检验“低位收盘是否与随后反弹相关”。原 2017–2020 数据曾被用于整个区间筛选，不能重新命名为未见测试集。v2 保留 16 个原公式族，另增 5 个交互方向版本，全部候选的结果与选择排名均归档。O13 原代码使用 3 日低位均值，旧说明中的 5 日为错误；原负数低位得分乘波动率可能与“恐慌越强分数越高”的解释冲突，故新增 O13v2，不悄悄改写旧 ID。
 
-Signals are calculated after the close of day `t`; the label is close-to-close return from `t` to `t+1`. Every date is ranked cross-sectionally. The long leg holds the top 20% of the signal and the short leg holds the bottom 20%. Transaction cost is 5 bps times realized one-way weight turnover.
+## 日期、信号与收益
 
-## Screening
+1. 按所有输入日期 × 50 个代码重建日期主表。缺失换手率不删除已有价格；缺失某股票交易日不与下一行拼接。
+2. 在完整表上先生成 1/3/5 日收盘收益标签，再处理因子缺失。每个评价段剔除标签结束日跨越该段终点的 IC 记录。
+3. t 日收盘数据产生信号，t+1 日开盘调仓，按逐开盘净值计算组合日收益。第一天无信号则持币，样本尾退出并计成本；不使用未来收益是否缺失决定当日入选股票。
+4. 3/5 日标签仅用于描述性 Rank IC，不直接复利成年化收益，也不把重叠观测当成独立显著性样本。旧程序的组合本身是 1 日收益；整改针对重叠标签的解释，不虚称已发现旧程序用 5 日收益直接年化。
 
-Candidates are ranked jointly by 1-day IC mean, ICIR, positive-IC hit rate, net long-short Sharpe and low realized turnover. The top three are retained in `config/selected_factors.json`.
+最少 10 个有效横截面；多空各取 20%，总绝对权重 1、净权重 0；只多和五分组各报告。常数信号持币，同分按代码稳定排序。日期无有效信号仍保留；持仓缺少开盘价时用过去报价估值并阻止整次调仓，明确计入 `blocked_rebalance`，不能用删行制造连续收益。
 
-## Limits
+## 成本与执行限制
 
-The experiment is in-sample over 2017–2020 and uses a frozen constituent list. It does not model suspension constraints, price limits, borrow availability, slippage beyond the fixed cost, or point-in-time membership changes.
+基础假设：成交额单边佣金 3 bps、滑点 2 bps，卖出额另加 10 bps；空头借券年费 200 bps 按 252 日摊销。费用基数为 **买卖成交绝对金额之和**，不再含糊地减半；建仓、价格漂移后的再平衡、末次退出都计入，持仓按扣费后净资产自融资。
+
+这些是明示的研究情景，不是实际券商费率。另列对称全包 0/5/10/20 bps 压力测试，不与分项基准混淆。初始净值 1 参与回撤，年化分母使用完整模拟日期数。
+
+开盘价格只是一种可检查的执行代理：没有逐笔撮合、涨跌停队列、整手、真实借券和复权公司行为现金流；不能保证按开盘成交，也不是生产级 PnL。停止报价/退市可能导致长期阻止调仓；这类结果必须同时报告阻止天数与最终持仓，而非事后删除该股票。
+
+## 划分与冻结
+
+- 2017–2018 开发训练、2019 开发验证排序、2020 历史复核；全部已被查看。
+- 排序固定为 Sharpe、1 日 IC 均值、ICIR 百分位均值加 0.25 × 低换手百分位；没有最低盈利门槛，所以选中只意味着相对排名靠前。
+- 固定 3 个候选后记录真实时间和哈希。2021–2025 若此前未使用，仅作为一次历史留出；不能算冻结后的未来市场。
+- 单次访问账本在数据评价前写入，重试评价被拒绝。失败需记录原因，不能偷偷重置；改变方法必须另立版本并披露曾查看旧留出集。
+- 冻结校验是本地防误改机制，不是第三方公证时间戳。已知重要数据局限不可被“冻结”消除。
+
+## 结果与旧版比较
+
+旧版完整复跑在 `runs/legacy_reproduced/`，旧发表结果在 `runs/final/`；新结果在 `runs/revised_v2/`。新版同时改变日期处理、交易时点、真实换手计量和多项费用，因此净值差异不能单独归因于某一项。新版 O03/O07/O10 历史多空净收益均为负，应报告证据不支持原盈利叙事，不再回到全样本重选最优因子。
+
+[公式](factors.md) · [前向协议](forward_protocol.md) · [源码](../wiki/entities/research.md) · [输入数据说明](../data/README.md)

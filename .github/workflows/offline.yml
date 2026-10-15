@@ -1,0 +1,22 @@
+name: Research checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r requirements.txt
+      - run: python -B -m unittest discover -s tests -v
+      - run: python -B scripts/research_control.py verify
+      - run: python -B scripts/verify_results.py
+      - run: python -B scripts/verify_forward.py
+      - run: python -B scripts/check_docs.py --output /tmp/documentation.json
+      - run: python -B scripts/check_secrets.py --output /tmp/security.json

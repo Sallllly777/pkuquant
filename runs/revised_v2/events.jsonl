@@ -1,0 +1,23 @@
+{"at": "2026-10-09T13:23:44.047535+00:00", "event": "started", "method": "oversold-v2.0"}
+{"at": "2026-10-09T13:23:46.596066+00:00", "event": "candidate_evaluated", "factor": "O01_seed_upper_room_3d"}
+{"at": "2026-10-09T13:23:48.122031+00:00", "event": "candidate_evaluated", "factor": "O02_low_location_3d"}
+{"at": "2026-10-09T13:23:49.623375+00:00", "event": "candidate_evaluated", "factor": "O03_low_location_5d"}
+{"at": "2026-10-09T13:23:51.082608+00:00", "event": "candidate_evaluated", "factor": "O04_three_low_closes"}
+{"at": "2026-10-09T13:23:52.456997+00:00", "event": "candidate_evaluated", "factor": "O05_five_low_closes"}
+{"at": "2026-10-09T13:23:53.604229+00:00", "event": "candidate_evaluated", "factor": "O06_return_3d"}
+{"at": "2026-10-09T13:23:54.716304+00:00", "event": "candidate_evaluated", "factor": "O07_return_5d"}
+{"at": "2026-10-09T13:23:56.487410+00:00", "event": "candidate_evaluated", "factor": "O08_downside_sum_5d"}
+{"at": "2026-10-09T13:23:59.230820+00:00", "event": "candidate_evaluated", "factor": "O09_drawdown_20d"}
+{"at": "2026-10-09T13:24:00.936877+00:00", "event": "candidate_evaluated", "factor": "O10_distance_low_20d"}
+{"at": "2026-10-09T13:24:02.221381+00:00", "event": "candidate_evaluated", "factor": "O11_low_close_turn_shock"}
+{"at": "2026-10-09T13:24:03.256207+00:00", "event": "candidate_evaluated", "factor": "O12_low_close_turn_dollar"}
+{"at": "2026-10-09T13:24:04.213800+00:00", "event": "candidate_evaluated", "factor": "O13_low_close_high_vol"}
+{"at": "2026-10-09T13:24:05.186197+00:00", "event": "candidate_evaluated", "factor": "O14_panic_range_low_close"}
+{"at": "2026-10-09T13:24:06.248653+00:00", "event": "candidate_evaluated", "factor": "O15_three_day_bear_pressure"}
+{"at": "2026-10-09T13:24:07.348532+00:00", "event": "candidate_evaluated", "factor": "O16_low_close_rebound_gap"}
+{"at": "2026-10-09T13:24:08.468738+00:00", "event": "candidate_evaluated", "factor": "O11v2_low_strength_turn_shock_3d"}
+{"at": "2026-10-09T13:24:09.654420+00:00", "event": "candidate_evaluated", "factor": "O12v2_low_strength_turn_3d"}
+{"at": "2026-10-09T13:24:10.874385+00:00", "event": "candidate_evaluated", "factor": "O13v2_low_strength_relative_vol_3d"}
+{"at": "2026-10-09T13:24:12.072101+00:00", "event": "candidate_evaluated", "factor": "O14v2_low_strength_range_3d"}
+{"at": "2026-10-09T13:24:13.211816+00:00", "event": "candidate_evaluated", "factor": "O16v2_low_strength_gap_3d"}
+{"at": "2026-10-09T13:24:36.861626+00:00", "event": "completed", "selected": ["O03_low_location_5d", "O07_return_5d", "O10_distance_low_20d"], "output": "runs\\revised_v2"}

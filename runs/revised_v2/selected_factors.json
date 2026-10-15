@@ -1,0 +1,18 @@
+{
+  "method": "oversold-v2.0",
+  "selected_on": "2019 development validation; already inspected historical data",
+  "factors": [
+    {
+      "factor": "O03_low_location_5d",
+      "reason": "top development score, experimental candidate, not confirmed effectiveness"
+    },
+    {
+      "factor": "O07_return_5d",
+      "reason": "top development score, experimental candidate, not confirmed effectiveness"
+    },
+    {
+      "factor": "O10_distance_low_20d",
+      "reason": "top development score, experimental candidate, not confirmed effectiveness"
+    }
+  ]
+}

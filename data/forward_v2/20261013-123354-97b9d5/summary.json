@@ -1,0 +1,10 @@
+{
+  "started_at_utc": "2026-10-13T04:33:54.937455+00:00",
+  "observe_only": true,
+  "status": "observation_only",
+  "signal_created": false,
+  "folder": "data/forward_v2/20261013-123354-97b9d5",
+  "end": "2026-10-12",
+  "rows": 5900,
+  "finished_at_utc": "2026-10-13T04:34:27.645779+00:00"
+}
